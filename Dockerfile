@@ -1,3 +1,3 @@
 FROM centos
 
-ENTRYPOINT [ "sleep", "360000"]
+ENTRYPOINT [ "sleep", "36000"]
