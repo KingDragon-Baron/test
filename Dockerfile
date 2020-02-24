@@ -1,7 +1,3 @@
-FROM centos7
+FROM centos
 
-RUN yum install -y etcd
-
-EXPOSE 2379 2380
-
-ENTRYPOINT [ "etcd" ]
+ENTRYPOINT [ "sleep", "36000:"]
